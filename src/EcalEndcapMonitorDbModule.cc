@@ -1,8 +1,8 @@
 /*
  * \file EcalEndcapMonitorDbModule.cc
  *
- * $Date: 2008/11/10 22:22:24 $
- * $Revision: 1.13 $
+ * $Date: 2010/08/12 18:34:31 $
+ * $Revision: 1.14.6.1 $
  * \author G. Della Ricca
  *
 */
@@ -21,9 +21,9 @@
 #include "CoralBase/Attribute.h"
 #include "CoralKernel/Context.h"
 
-#include <DQM/EcalBarrelMonitorDbModule/interface/MonitorElementsDb.h>
+#include "DQM/EcalBarrelMonitorDbModule/interface/MonitorElementsDb.h"
 
-#include <DQM/EcalEndcapMonitorDbModule/interface/EcalEndcapMonitorDbModule.h>
+#include "DQM/EcalEndcapMonitorDbModule/interface/EcalEndcapMonitorDbModule.h"
 
 EcalEndcapMonitorDbModule::EcalEndcapMonitorDbModule(const edm::ParameterSet& ps){
 
